@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'Zkeq の 算法笔记',
-  domain: 'docs.icodeq.com',
+  domain: 'hnjm.onmicrosoft.cn',
   author: 'Zkeq',
 
   // open graph metadata (optional)
