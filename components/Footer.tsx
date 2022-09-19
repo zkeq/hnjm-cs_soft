@@ -49,10 +49,10 @@ export const FooterImpl: React.FC = () => {
       { isHome &&(
       <Giscus
         id="comments"
-        repo="zkeq/Docs"
-        repoId="R_kgDOH2LTHQ"
+        repo="zkeq/hnjm-cs_soft"
+        repoId="R_kgDOIBhsdA"
         category="Announcements"
-        categoryId="DIC_kwDOH2LTHc4CQ6tU"
+        categoryId="DIC_kwDOIBhsdM4CRg-0"
         mapping="og:title"
         reactionsEnabled="1"
         emitMetadata="0"
