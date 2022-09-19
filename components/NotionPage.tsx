@@ -36,7 +36,7 @@ import { Notify } from 'notiflix/build/notiflix-notify-aio'
 import { Report } from 'notiflix/build/notiflix-report-aio'
 
 // plausible Analytics
-import Script from 'next/script'
+// import Script from 'next/script'
 
 import styles from './styles.module.css'
 
