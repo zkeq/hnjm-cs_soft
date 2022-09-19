@@ -321,7 +321,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
 
       <GitHubShareButton />
 
-      <Script defer data-domain="hnjm.onmicrosoft.cn" src="https://vercel.site.icodeq.com/js/script.js"></Script>
+      {/* <Script defer data-domain="hnjm.onmicrosoft.cn" src="ht/tps://vercel.site.icodeq.com/js/script.js"></Script> */}
     </>
   )
 }
