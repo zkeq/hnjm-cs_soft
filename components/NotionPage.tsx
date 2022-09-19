@@ -268,11 +268,11 @@ export const NotionPage: React.FC<types.PageProps> = ({
     }
     // 从 localstorage 里面获取是否已经提醒过
     const isReminded = localStorage.getItem('isReminded')
-    if (window.location.hostname !== 'docs.icodeq.com') {
+    if (window.location.hostname !== 'hnjm.onmicrosoft.cn') {
       if (isReminded !== 'true') {
         Report.success(
           '温馨提示',
-          '您在访问的是备用站点, 主站地址: https://docs.icodeq.com',
+          '您在访问的是备用站点, 主站地址: https://hnjm.onmicrosoft.cn',
           'Okay'
         )
         localStorage.setItem('isReminded', 'true')
@@ -321,7 +321,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
 
       <GitHubShareButton />
 
-      <Script defer data-domain="docs.icodeq.com" src="https://vercel.site.icodeq.com/js/script.js"></Script>
+      <Script defer data-domain="hnjm.onmicrosoft.cn" src="https://vercel.site.icodeq.com/js/script.js"></Script>
     </>
   )
 }
